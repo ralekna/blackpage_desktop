@@ -1,0 +1,37 @@
+{
+  "name": "blackpage_desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralekna/blackpage_desktop.git"
+  },
+  "author": "Rytis Alekna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralekna/blackpage_desktop/issues"
+  },
+  "homepage": "https://github.com/ralekna/blackpage_desktop#readme",
+  "devDependencies": {
+    "jspm": "^0.16.31"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.11",
+      "es6-shim": "github:es-shims/es6-shim@^0.35.0",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3",
+      "rxjs": "npm:rxjs@^5.0.0-beta.2",
+      "zone.js": "npm:zone.js@^0.6.4"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "typescript": "npm:typescript@^1.8.9"
+    }
+  }
+}

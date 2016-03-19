@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackpage</title>
+
+
+    <script src="jspm_packages/system-polyfills.js"></script>
+    <script src="jspm_packages/npm/angular2@2.0.0-beta.11/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="jspm_packages/system.js"></script>
+    <!-- <script src="jspm_packages/npm/angular2@2.0.0-beta.11/bundles/angular2.dev.js"></script> -->
+    <script src="config.js"></script>
+    <script>
+        System.import('app/bootstrap')
+                .then(null, console.error.bind(console));
+    </script>
+</head>
+<body>
+ <my-app></my-app>
+</body>
+</html>
