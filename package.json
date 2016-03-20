@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/ralekna/blackpage_desktop#readme",
   "devDependencies": {
-    "jspm": "^0.16.31"
+    "jspm": "^0.16.31",
+    "live-server": "^0.9.2"
   },
   "jspm": {
     "dependencies": {
