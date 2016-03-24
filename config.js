@@ -9,7 +9,8 @@ System.config({
     ]
   },
   typescriptOptions: {
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "tsconfig": true
   },
   paths: {
     "github:*": "jspm_packages/github/*",
