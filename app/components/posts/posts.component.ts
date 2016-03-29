@@ -13,6 +13,8 @@ import PostsService from 'app/services/remote/posts.service';
     providers: [PostsService]
 })
 export default class PostsComponent {
-    constructor(private post)
+    constructor(private postsService: PostsService) {
+        this.posts = postsService.getPosts();
+    }
 }
 
