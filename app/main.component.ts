@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import PostsComponent from './components/posts/posts.component';
+import PostsListComponent from './components/posts/posts-list.component.ts';
 
 // Annotation section
 @Component({
@@ -7,9 +7,9 @@ import PostsComponent from './components/posts/posts.component';
     template: `
         <div>
             <h1>Hello {{ name }}</h1>
-            <posts-component></posts-component>
+            <posts-list></posts-list>
         </div>`,
-    directives: [PostsComponent]
+    directives: [PostsListComponent]
 })
 // Component controller
 export default class MainComponent {
